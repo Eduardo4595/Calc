@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:wght@100..900&family=Elms+Sans:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+html,
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.calculadora {
+    width: 320px;
+    height: 455px;
+    margin: 40px auto;
+    padding: 28px;
+    border-radius: 32px;
+    background: linear-gradient(to bottom, #171517, #272528);
+    box-shadow:
+        16px 21px 16px rgba(0, 0, 0, 0.425),
+        inset 6px 4px 6px rgba(232, 223, 198, 0.352),
+        inset 40px 32px 26px -40px rgba(255, 229, 153, 0.181),
+        inset -6px -4px 6px rgba(0, 0, 0, 0.752),
+        inset -40px -32px 26px -40px rgba(0, 0, 0, 0.981);
+    border: 9px solid #7b7170;
+    border-left: none;
+    border-top: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 4%;
+}
+
+.txt {
+    height: 3.5%;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 58%;
+}
+
+#pr {
+    font-size: 1.4em;
+}
+
+#sg {
+    font-size: 0.8em;
+}
+
+.display {
+    display: flex;
+    height: 15%;
+    border-top: solid 12px #080808;
+    border-left: solid 12px #080808;
+    border-right: solid 12px #272727;
+    border-bottom: solid 12px #272727;
+    box-shadow:
+        inset 6px 6px 9px rgba(0, 0, 0, 0.8),
+        -10px 13px 12px -16px rgba(238, 223, 177, 0.433);
+    background: radial-gradient(circle at top right,
+            #90aac4,
+            #a0c4d4);
+    font-size: 3em;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 8px;
+    user-select: none;
+    overflow-x: auto;
+    scrollbar-width: none;
+    font-family: 'Bitcount Grid Single', monospace;
+}
+
+.botoes {
+    height: 60%;
+    display: grid;
+    grid-template-columns: repeat(4, 5fr);
+    gap: 1%;
+    justify-items: center;
+    align-items: center;
+
+}
+
+button {
+    height: 40px;
+    width: 60px;
+    font-size: 2.25em;
+    text-align: center;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    border-left: solid 3px #d8d0b7;
+    border-bottom: solid 4px #756f69;
+    border-right: solid 4px #756f69;
+    background: linear-gradient(to right, #736d68, #9d948d);
+    box-shadow: 7px 7px 9px rgba(0, 0, 0),
+        inset 4px 2px 9px rgba(255, 242, 203, 0.401);
+    cursor: pointer;
+    transition: background 0.2s, transform 0.075s ease;
+    font-family: monospace;
+
+}
+
+button:hover {
+    color: #ffffffda;
+    border-left: solid 3px #928a83;
+    border-bottom: solid 4px #655f59;
+    border-right: solid 4px #655f59;
+    background: linear-gradient(to right, #65615b, #736d68);
+    box-shadow: 7px 7px 9px rgba(0, 0, 0),
+        inset 4px 2px 9px rgba(255, 242, 203, 0);
+}
+
+button:active {
+    transform: scale(0.91);
+}
+
+.operacao {
+    border-left: solid 3px #46453e;
+    background: linear-gradient(to right, #201f21, #343235);
+    box-shadow: 7px 7px 9px rgba(0, 0, 0);
+    border-bottom: solid 4px #201f21;
+    border-right: solid 4px #201f21;
+}
+
+.operacao:hover {
+    color: #ffffffda;
+    border-left: solid 3px #2c2a2d;
+    background: linear-gradient(to right, #171718, #201f21);
+    border-bottom: solid 4px #181719;
+    border-right: solid 4px #181719;
+}
+
+#mais {
+    grid-column: 4 / 5;
+    grid-row: 4 / 6;
+    height: 90px;
+}

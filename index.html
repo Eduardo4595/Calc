@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="txt">
+            <h1 id="pr">CASIO</h1>
+            <h1 id="sg">mx-12B</h1>
+        </div>
+        <div id="display" class="display">0</div>
+        <div class="botoes">
+            <button onclick="adicionar('7')">7</button>
+            <button onclick="adicionar('8')">8</button>
+            <button onclick="adicionar('9')">9</button>
+            <button class="operacao" onclick="adicionar('/')">÷</button>
+
+            <button onclick="adicionar('4')">4</button>
+            <button onclick="adicionar('5')">5</button>
+            <button onclick="adicionar('6')">6</button>
+            <button class="operacao" onclick="adicionar('*')">×</button>
+
+            <button onclick="adicionar('1')">1</button>
+            <button onclick="adicionar('2')">2</button>
+            <button onclick="adicionar('3')">3</button>
+            <button class="operacao" onclick="adicionar('-')">−</button>
+
+            <button onclick="adicionar('0')">0</button>
+            <button onclick="adicionar('00')">00</button>
+            <button onclick="adicionar('.')">.</button>
+            <button class="operacao" id="mais" onclick="adicionar('+')">+</button>
+            <button class="operacao" onclick="voltar()">M-</button>
+
+            <button class="operacao" onclick="limpar()">MC</button>
+            <button class="operacao" onclick="calcular()">=</button>
+        </div>
+    </div>
+</body>
+
+</html>

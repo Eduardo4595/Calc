@@ -4,6 +4,9 @@ Academic project focused on developing a calculator application using HTML and C
 ## Tools and Languages 🛠️
 HTML, CSS and JavaScript
 
+## Have a Look
+https://eduardo4595.github.io/Calc/
+
 ## Collaboration 🤝
 - [@rhee-c31](https://github.com/rhee-c31)
 - [@Eduardo4595](https://github.com/Eduardo4595)

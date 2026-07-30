@@ -9,4 +9,4 @@ https://edukaxs.github.io/Calc/
 
 ## Collaboration 🤝
 - [@rhee-c31](https://github.com/rhee-c31)
-- [@Eduardo4595](https://github.com/Eduardo4595)
+- [@Edukaxs](https://github.com/Edukaxs)

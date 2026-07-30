@@ -4,7 +4,7 @@ Academic project focused on developing a calculator application using HTML and C
 ## Tools and Languages 🛠️
 HTML, CSS and JavaScript
 
-## Have a Look
+## Have a Look 👀
 https://edukaxs.github.io/Calc/
 
 ## Collaboration 🤝
